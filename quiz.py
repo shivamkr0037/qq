@@ -155,7 +155,7 @@ def quiz(update, context):
 
 
 def main():
-    token = os.environ.get('TELEGRAM_TOKEN')
+    token = '6135605220:AAGID1bjlBbWbV0DckTLW5WX0C_tOtWj_K8'
     updater = Updater(token, use_context=True)
     dp = updater.dispatcher
     dp.add_handler(CommandHandler("start", start))
